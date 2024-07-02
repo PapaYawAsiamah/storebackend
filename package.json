@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "vercel-build": "prisma db push --accept-data-loss && prisma generate"
   },
@@ -21,6 +22,7 @@
     "sequelize": "^6.37.3"
   },
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "prisma": "^5.16.1"
   }
 }
